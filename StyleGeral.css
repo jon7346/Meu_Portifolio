@@ -3,19 +3,38 @@
   padding: 0;
 }
 body{
-    color: whitesmoke;
-    background-color: #000606;
-    background-position: top right;
+    color: #fff;
+    background-color: #01052c;
+    background-position : top right;
     background-repeat: no-repeat;
+    
 
 }
+@font-face {
+  font-family:'NHL';
+  src:url('NHL.ttf');
+ 
+}
+#imagens{
+  margin:10px;
 
-#introdução, #sobre-mim {
+}
+h1{
+  font-size: 100px;
+  font-family:NHL;
+  }
+
+#introdução {
     text-align: center;
     margin: auto;
     padding: 15px;
 }
-
+#sobre-mim{
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+ 
+}
  #introdução {
 
  color: #fff;
@@ -35,5 +54,9 @@ body{
   width: 400px; 
   padding: 10px;
 
+ }
+ #link{
+  text-decoration: none;
+  
  }
  
