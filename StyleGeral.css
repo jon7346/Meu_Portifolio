@@ -4,7 +4,7 @@
 }
 body{
     color: #fff;
-    background-color: #01052c;
+    background-color: #181818;
     background-position : top right;
     background-repeat: no-repeat;
     
@@ -53,10 +53,15 @@ h1{
  .projeto {
   width: 400px; 
   padding: 10px;
-  float: right;
+  float: left;
  }
  #link{
   text-decoration: none;
   
+ }
+ a.projeto.visited{
+  text-decoration: none;
+   overflow: none; 
+   color: #fff; 
  }
  
