@@ -17,7 +17,7 @@ body{
 }
 #imagens{
   margin:10px;
-
+  mix-blend-mode: darken;
 }
 h1{
   font-size: 100px;
@@ -53,7 +53,7 @@ h1{
  .projeto {
   width: 400px; 
   padding: 10px;
-
+  float: right;
  }
  #link{
   text-decoration: none;
