@@ -12,5 +12,13 @@ const server =http.createServer(req,res) => {
 
     let filepath= path.join(__dirname, '/', req.url === '/' ? 'index.html' : req.url);
 
-    let exname = path.extname()
+    let exname = path.extname(filepath);
+    let contenttype = 'text/html';
+
+    switch (extname){
+        case '.css': contenttype = "text/css"; break;
+        case '.js': contenttype = ""
+        case '.png': contenttype = 
+        case '.jpg': contenttype = 
+    }
 } 
