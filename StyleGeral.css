@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-    color: #fff;
+    font: #fff;
     background-color: #181818;
     background-position : top right;
     background-repeat: no-repeat;
@@ -14,6 +14,9 @@ body{
   font-family:'NHL';
   src:url('NHL.ttf');
  
+}
+a{
+  text-decoration: none;
 }
 #imagens{
   margin:10px;
@@ -36,7 +39,6 @@ h1{
  
 }
  #introdução {
-
  color: #fff;
  font-family: 'Courier New', Courier, monospace;
 
@@ -47,21 +49,33 @@ h1{
   color: #fff;;
  }
  #projetos {
-  padding-top: 300px;
-  width: 920px
+  margin-top: 300px;
+  padding: 0%;
+  border:1px #fff solid
+  
+ }
+ .link-projeto {
+  text-decoration: none;
+
+
  }
  .projeto {
-  width: 400px; 
-  padding: 10px;
+  width: 30% ; 
+  border: 1px #fff solid;
   float: left;
+  text-decoration: none;
  }
  #link{
   text-decoration: none;
-  
+
  }
- a.projeto.visited{
-  text-decoration: none;
+ .link-projeto.visited{
+   text-decoration: none;
    overflow: none; 
    color: #fff; 
  }
- 
+ #esquerda{
+  float: left ; 
+  border: 1px #fff;
+  width: 10px;
+ } 
