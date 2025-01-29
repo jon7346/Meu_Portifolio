@@ -3,74 +3,60 @@
   padding: 0;
 }
 body{
+   background-size: 100%;
     font: #fff;
     background-color: #181818;
     background-position : top right;
     background-repeat: no-repeat;
-    
-
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
 }
 @font-face {
   font-family:'NHL';
   src:url('NHL.ttf');
- 
 }
-a{
-  text-decoration: none;
-}
-#imagens{
-  margin:10px;
-  
-}
+
 h1{
   font-size: 100px;
   font-family:NHL;
   }
+ #imagens{
+    background-size: 100%;
+    margin:10px;
+  }
 
-#introdução {
-    text-align: center;
-    margin: auto;
-    padding: 15px;
-}
-#sobre-mim{
+#sobre-mim, #introdução {
   text-align: center;
   margin: auto;
   padding: 15px;
  
 }
- #introdução {
- color: #fff;
- font-family: 'Courier New', Courier, monospace;
-
- }
- a.link{
+#imagem1{
+  
+  background-image: url(./imagens/HD-wallpaper-technology-code-programmer-minimalist_1370x771.jpg) ;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+a{
   text-decoration: none;
   background-color: rgba(40, 39, 38, 0.852);
   color: #fff;;
  }
  #projetos {
-  margin-top: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   padding: 0%;
-  border:1px #fff solid
-  
- }
- .link-projeto {
-  text-decoration: none;
-
-
+  border:1px #fff solid;
+  float: center ;
  }
  .projeto {
   width: 30% ; 
   border: 1px #fff solid;
   float: left;
-  text-decoration: none;
- }
- #link{
-  text-decoration: none;
-
  }
  .link-projeto.visited{
-   text-decoration: none;
    overflow: none; 
    color: #fff; 
  }
