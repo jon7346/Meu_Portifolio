@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-   background-size: 100%;
+    background-size: 100%;
     font: #fff;
     background-color: #181818;
     background-position : top right;
@@ -21,40 +21,44 @@ h1{
   font-size: 100px;
   font-family:NHL;
   }
- #imagens{
-    background-size: 100%;
-    margin:10px;
-  }
+  a{
+    text-decoration: none;
+    background-color: rgba(40, 39, 38, 0.852);
+    color: #fff;;
+   }
+
+#imagens { 
+
+  width: 100%;
+  background-color: #fff;
+  
+}
+
 
 #sobre-mim, #introdução {
+  margin: 10px;
   text-align: center;
   margin: auto;
   padding: 15px;
  
 }
-#imagem1{
-  
-  background-image: url(./imagens/HD-wallpaper-technology-code-programmer-minimalist_1370x771.jpg) ;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-a{
-  text-decoration: none;
-  background-color: rgba(40, 39, 38, 0.852);
-  color: #fff;;
- }
  #projetos {
+  height: 440px;
+  width: 98%;
   margin-bottom: 50px;
   margin-top: 50px;
+  align-content: center;
   padding: 0%;
   border:1px #fff solid;
-  float: center ;
+  
+
  }
  .projeto {
-  width: 30% ; 
-  border: 1px #fff solid;
-  float: left;
+  height: 330px ;
+  width: 220px  ; 
+  border: 1px red solid;
+  align-content: left ;
+ 
  }
  .link-projeto.visited{
    overflow: none; 
