@@ -1,5 +1,4 @@
 
-
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 body{
     background-size: 100%;
     font: #fff;
-    background-color: #181818;
+    background-color: #101320;
     background-position : top right;
     background-repeat: no-repeat;
     text-align: center;
@@ -68,14 +67,12 @@ h1{
   border: 1px #fff;
   width: 10px;
  } 
-
  .link:hover{
    padding: 5px;
    font-size: 20px;
    transition-delay: 0s;
    transition-duration: 1s;
  }
-
  .link-projeto:hover{
     font-size: 17px;
     padding: 10px;
