@@ -5,8 +5,12 @@
 }
 body{
     background-size: 100%;
+<<<<<<< HEAD
     font: #fff;
     background-color: #101320;
+=======
+    background-color: #010107e0;
+>>>>>>> 89eb3ec (s)
     background-position : top right;
     background-repeat: no-repeat;
     text-align: center;
@@ -27,12 +31,18 @@ h1{
     background-color: rgba(40, 39, 38, 0.852);
     color: #fff;;
    }
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 #imagens { 
   width: 100%;
   background-color: #fff; 
 }
 .link {
+  
   font-size: 18px;
 }
 #sobre-mim, #introdução {
@@ -62,11 +72,15 @@ h1{
   font-size: 15px;
 
 }
+<<<<<<< HEAD
  #esquerda{
   float: left ; 
   border: 1px #fff;
   width: 10px;
  } 
+=======
+
+>>>>>>> 89eb3ec (s)
  .link:hover{
    padding: 5px;
    font-size: 20px;
@@ -80,15 +94,12 @@ h1{
     opacity: 75%;
     transition-duration: 1s;
   }
-  #esquerda, #direita {
-    border-radius: 300px;
-    margin-top: 174px;
-    margin-bottom: auto;
-  }
   #quatro{
     background-attachment: fixed;
     width: 100% ;
   }
   #projetos{
+    background-color: #d3d3f586;
     width: 100% ;
   }
+ 
