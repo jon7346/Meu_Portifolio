@@ -1,14 +1,5 @@
-#pagina{
-    margin-top: 75px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 0px; 
-    padding-bottom: 100%;
-    background-color:  #fff;
-   
-    
-}
-.cabeçalho a{
+
+header a {
     color: #fff ;
     background-color: #000070e0;
     border-radius: 25%;
@@ -16,20 +7,26 @@
     padding: 5px  ;
 }
 body{
-    display: fixed  ;
+   
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+    
+    margin: 0;
+    width: 100%;
     background-color:  #010107e0;
 }
-.cabeçalho {
+h2 {
     background-color: rgba(55, 54, 54, 0.798);
 }
 #redessociais{
     margin-top: 150px;
-    text-align: left;
-
 }
 a{
 text-decoration: none;
 }
-#contato { 
-    text-align: left;
+
+#redessociais a{ 
+color: white ;
 }
