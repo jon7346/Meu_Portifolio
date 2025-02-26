@@ -1,17 +1,35 @@
-*{
-    border: 0 ;
-    margin: 0 ;
+#pagina{
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px; 
+    padding-bottom: 100%;
+    background-color:  #fff;
+   
+    
 }
-body {
-    color: #fff;
-    background-color: #6a6969cf;
+.cabeçalho a{
+    color: #fff ;
+    background-color: #000070e0;
+    border-radius: 25%;
+    margin: 5px ;
+    padding: 5px  ;
+}
+body{
+    display: fixed  ;
+    background-color:  #010107e0;
 }
 .cabeçalho {
     background-color: rgba(55, 54, 54, 0.798);
 }
 #redessociais{
     margin-top: 150px;
+    text-align: left;
+
 }
 a{
 text-decoration: none;
+}
+#contato { 
+    text-align: left;
 }

@@ -5,12 +5,9 @@
 }
 body{
     background-size: 100%;
-<<<<<<< HEAD
+
     font: #fff;
-    background-color: #101320;
-=======
     background-color: #010107e0;
->>>>>>> 89eb3ec (s)
     background-position : top right;
     background-repeat: no-repeat;
     text-align: center;
@@ -72,15 +69,6 @@ h1{
   font-size: 15px;
 
 }
-<<<<<<< HEAD
- #esquerda{
-  float: left ; 
-  border: 1px #fff;
-  width: 10px;
- } 
-=======
-
->>>>>>> 89eb3ec (s)
  .link:hover{
    padding: 5px;
    font-size: 20px;
