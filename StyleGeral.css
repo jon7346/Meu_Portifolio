@@ -16,7 +16,7 @@ body{
   src:url('NHL.ttf');
 }
 h1{
-  font-size: 100px;
+  font-size: 75px;
   font-family:NHL;
   }
 a{
@@ -36,9 +36,10 @@ a{
   border-radius: 500px;
 }
 #sobre-mim, #introdução {
+  height: 100%;
   margin: 10px;
   text-align: center;
-  margin: auto;
+  
   padding: 15px;
 }
 
