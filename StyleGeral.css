@@ -16,6 +16,7 @@ body{
   src:url('NHL.ttf');
 }
 h1{
+  margin: 10px;
   font-size: 75px;
   font-family:NHL;
   }
@@ -31,7 +32,7 @@ a{
   align-items: center;
 }
 .link {
-
+ 
   font-size: 18px;
   border: solid #fff ;
   border-radius: 500px;
