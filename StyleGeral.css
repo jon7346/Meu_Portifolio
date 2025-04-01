@@ -20,7 +20,7 @@ h1{
   font-family:NHL;
   }
 a{
-  padding: 1px;
+  padding: 10px;
   text-decoration: none;
   background-color: rgba(40, 39, 38, 0.852);
   color: #fff;;
@@ -31,15 +31,15 @@ a{
   align-items: center;
 }
 .link {
+
   font-size: 18px;
   border: solid #fff ;
   border-radius: 500px;
 }
-#sobre-mim, #introdução {
-  margin: 10px;
+ #introdução {
   text-align: center;
   margin: auto;
-  padding: 15px;
+  padding: 15%;
 }
 
  #projetos {
