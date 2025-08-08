@@ -1,0 +1,13 @@
+1- interface basica(tela inicial )
+.heater para pesquisa 
+.corpo geral 
+.slider com produtos 
+.campo com link dos produtos 
+.pagina com dados do produto 
+.pagina de verificação de compra 
+.pagina para ajuste de endereço 
+.pagina para 
+2- produtos e sistema para mostra-los 
+3- sistema de busca 
+4- logica de compra 
+5- banco de dados com todas as caracteristicas dos produtos 
